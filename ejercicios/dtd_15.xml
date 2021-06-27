@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+ <!ELEMENT animales (animal*)>
+  <!ELEMENT animal (perro*, gato*)>
+   <!ELEMENT perro (#PCDATA)>
+ <!ELEMENT gato (#PCDATA)>
+]>
+<animales>
+	<animal>
+		<perro>Caniche</perro>
+	</animal>
+	<animal>
+		<gato>Siamés</gato>
+	</animal>
+</animales>
+
+<!-- El elemento "animales" debe tener cero o varios elementos "animal" pero no tiene declarado ningún elemento "perro" o "gato", habria que declararlos -->

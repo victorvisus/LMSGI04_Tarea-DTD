@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD created at Thu Dec 17 20:11:01 CET 2020 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+
+<!ELEMENT agenda (contacto*) >
+
+<!--
+ El * significa que la agenda tiene 0 ó varios contactos
+  -->
+
+  
+<!ELEMENT contacto (nombre,apellido+,telefono,email?,direccion )>
+<!--
+ El + tiene como minimo 1 y como máx. muchos
+ El ? es opcional
+-->
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT direccion (calle,numero,cp)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+
+<!ATTLIST telefono pais CDDATA>
+
+
+ <!-- Elemento EMPTY:
+ En el xml, no podra haber nada dentro de la etiqueta que sea EMPTY
+ Se declara:  <!ELEMENT nombre_elemento EMPTY>
+ Ejemplo: Indicar que alguien esta aprobado:  <!ELEMENT aprobado EMPTY>
+ 
+
+Elemento PCDATA:
+ Quiere decir que no se colocará contenido que se deba analizar, es decir se pondrá solo texto o nada
+ Se declara:  <!ELEMENT nombre_elemento (#PCDATA)>
+ Ejemplo:
+ en el DTD <!ELEMENT nota (#PCDATA)>
+ en el XML <nota>Hola que tal</nota> o <nota></nota>
+  
+Elemento ANY:
+Admite cualquier tipo de dato
+ Se declara:  <!ELEMENT nombre_elemento ANY>
+ 
+ Elemento con hijos (o secuencia)
+ Se indica los elementos que contiene, orden y cantidad.
+ Ejemplo
+ <!ELEMENT correoelectronico (remitente, destinatario+, mensaje)>
+ Aqui le estamos diciendo que un correo esta formado por un remitente obligatorio, por un destinatario como mínimo y como máximo los que se quieran y un mensaje obligatorio
+  -->
+  
+  <!--
+
+  Cantidad y eleccion:
+  <!ELEMENT ejemplo (nombre) >   = 1 y solo 1
+  <!ELEMENT ejemplo (nombre?) >  = Ninguna o 1
+  <!ELEMENT ejemplo (nombre+) >  = 1 o más veces
+  <!ELEMENT ejemplo (nombre*) >  = Ninguna o muchas
+  
+  Elecciones "|"
+  <!ELEMENT cualesquieres (perro|gato) >
+  <!ELEMENT perro EMPTY >
+  <!ELEMENT gato EMPTY >
+  Cuando hacemos esto podemos escoger uno u otro a la hora de escribir el XML:
+  <cualesquieres>
+     <gato/>
+  </cualesquieres>
+
+   -->

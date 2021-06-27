@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+</xs:schema>
+
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Thu Dec 17 20:22:48 CET 2020 -->
+
+
+<agenda>
+	<contacto>
+		<nombre/>
+		<apellido/>
+		<apellido/>
+		<telefono>
+			<prefijo>
+			</prefijo>
+			<numtel>
+			</numtel>
+		</telefono>
+		<email>
+		</email>
+		<direccion>
+			<calle/>
+			<numero/>
+			<cp/>
+		</direccion>
+	</contacto>
+</agenda>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\agenda.dtd">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\agenda.xml" type="XML">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD"/>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\agenda02.dtd" type="DTD">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\ejercicios" type="XML"/>
+<file open="true" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\visus_garcia_victor_LMGSI04_tarea" type="XML"/>
+<file open="true" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\visus_garcia_victor_LMGSI04_tarea\pedido.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\pruebas" type="XML"/>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\pruebas\agenda.dtd" type="DTD">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\pruebas\agenda02.dtd" type="DTD">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\visus_garcia_victor_LMGSI04_tarea\pedido-02.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\visus_garcia_victor_LMGSI04_tarea\pedidos.dtd" type="DTD">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="H:\CFGSDAM-Proyectos\LMSGI04_Tarea-DTD\visus_garcia_victor_LMGSI04_tarea\pedidos.xsd" type="XSD">
+<param name="lastView" value="Source"/>
+</file>
+</root>

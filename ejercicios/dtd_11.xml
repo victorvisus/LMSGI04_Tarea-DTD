@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Dec 21 17:45:48 CET 2020 -->
+
+
+<!DOCTYPE numeros [
+ <!ELEMENT numeros (numero)>
+ <!ELEMENT numero (#PCDATA)>
+]>
+
+<numeros>
+	<numero>25</numero>
+</numeros>
+
+<!-- El elemento numeros no tiene ningun otro elemento dentro de el, para arreglarlo podemos o eliminar el "subelemento" numero o definir numeros con un hijo numero -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flores [
+ <!ELEMENT flores (flor+)>
+ <!ELEMENT flor (#PCDATA)>
+]>
+<flores>
+	<flor/>
+</flores>
+
+<!-- El elemento flores tenia definido que debia incluir uno o más elementos flor, que no existian -->
